@@ -1,16 +1,22 @@
 {
-  "manifest_version": 3,
-  "name": "Tab Manager for Chrome Dev Docs",
+  "name": "Broken Background Color",
   "version": "1.0",
-  "action": {
-    "default_popup": "popup.html"
+  "description": "Fix an Extension!",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "service-worker.js"
   },
-  "permissions": ["tabGroups"],
-  "host_permissions": ["https://developer.chrome.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "128": "images/icon-128.png"
+    }
+  },
   "icons": {
-    "16": "images/tabManager/icon-16.png",
-    "32": "images/tabManager/icon-32.png",
-    "48": "images/tabManager/icon-48.png",
-    "128": "images/tabManager/icon-128.png"
-  }
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "manifest_version": 3
 }

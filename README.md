@@ -75,6 +75,7 @@ Following ye ole trusty Hello World tutorial to create a Chrome Extension (and a
 
 ### Open extension API reference
 
+````
 {
   "manifest_version": 3,
   "name": "Open extension API reference",
@@ -100,7 +101,25 @@ Following ye ole trusty Hello World tutorial to create a Chrome Extension (and a
     }
   ]
 }
+````
 
 ### Tabs manager
 
-
+````
+{
+  "manifest_version": 3,
+  "name": "Tab Manager for Chrome Dev Docs",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabGroups"],
+  "host_permissions": ["https://developer.chrome.com/*"],
+  "icons": {
+    "16": "images/tabManager/icon-16.png",
+    "32": "images/tabManager/icon-32.png",
+    "48": "images/tabManager/icon-48.png",
+    "128": "images/tabManager/icon-128.png"
+  }
+}
+````
