@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extension-tut",
+  "version": "1.0.0",
+  "description": "Following ye ole trusty Hello World tutorial to create a Chrome Extension",
+  "main": "popup.js",
+  "dependencies": {
+    "chrome-types": "^0.1.283"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileedastugue/chrome-extension-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baileedastugue/chrome-extension-tut/issues"
+  },
+  "homepage": "https://github.com/baileedastugue/chrome-extension-tut#readme"
+}
