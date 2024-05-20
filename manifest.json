@@ -15,6 +15,14 @@
     "service_worker": "background.js"
   },
   "permissions": ["activeTab", "scripting"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  },
   "icons": {
     "16": "images/focusMode/icon-16.png",
     "32": "images/focusMode/icon-32.png",
