@@ -21,7 +21,5 @@ changeColorButton.addEventListener('click', (event) => {
 });
 
 function setColor(color) {
-  // There's a typo in the line below;
-  // ❌ colors should be ✅ color.
   document.body.style.backgroundColor = color;
 }

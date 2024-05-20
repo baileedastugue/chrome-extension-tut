@@ -2,7 +2,7 @@
   "name": "Broken Background Color",
   "version": "1.0",
   "description": "Fix an Extension!",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["activeTab", "scripting", "storage", "declarativeContent"],
   "options_page": "options.html",
   "background": {
     "service_worker": "service-worker.js"
